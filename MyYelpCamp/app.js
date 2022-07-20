@@ -153,3 +153,14 @@ app.use((err, req, res, next)=>{
 app.listen(3000, ()=>{
     console.log('Serving on the host 3000!')
 })
+
+/**
+ * Related points:
+ * 1. About the routers
+ * https://expressjs.com/en/guide/routing.html
+ * 
+ * 2. Using middleware
+ * https://expressjs.com/en/guide/using-middleware.html
+ */
+
+ 
