@@ -4,7 +4,7 @@ const path = require('path')
 const mongoose = require('mongoose')
 const Product = require('./models/product')
 const methodOverride = require('method-override')
-const categories = ['fruit', 'vegetable', 'dairy']
+const categories = ['fruit', 'vegetable', 'dairy', 'meat']   
 
 mongoose.connect('mongodb://localhost:27017/farmStand')
     .then(()=>{
