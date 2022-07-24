@@ -1,3 +1,4 @@
+const ejs = require("ejs")
 const path = require('path');
 const methodOverride = require('method-override')
 const { v4: uuid } = require('uuid'); //For generating ID's
